@@ -8,10 +8,10 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class SQRServiceTest {
 
-//    @Test
+    //    @Test
     @ParameterizedTest
     @CsvSource(
-            value={
+            value = {
                     "'1 diapason', 200, 300, 3",
                     "'2 diapason', 100, 200, 5",
                     "'3 diapason', 9000, 9801, 5",
